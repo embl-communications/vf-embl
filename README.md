@@ -1,56 +1,27 @@
-## 🚨 Pre-alpha 🚨
+# The Visual Framework for the EMBL Design system
 
-Warning: the `vf-child-template` is pre-alpha, things will change. We welcome usage and feedback, but updates will be tricky.
+This is an implementation of [the core Visual Framework (`vf-core`)](https://github.com/visual-framework/vf-core#visual-framework-20)
+for [the EMBL Design system](https://dev.beta.embl.org/guidelines/design).
 
-
-# Visual Framework Child template
-
-tl;dr Clone and edit me.
-
-This is a child template to use [the core Visual Framework (`vf-core`)](https://github.com/visual-framework/vf-core#visual-framework-20)
-patterns, override them and add your own.
-
-Why use a child? Programatically use (and update from)
-Visual Framework core patterns, but with complete flexibility in the look
-and function of your patterns (in addition to the Visual Framework's [style
-isolation principles](https://blogs.embl.org/communications/2018/09/12/faster-scientific-websites-through-reusability/)).
+Here you can find detailed documentation on EMBL Design system components.
 
 ## 🚼 Know the basics
 
 If you've not already, take a few minutes to [read the basics of the Visual Framework](https://github.com/visual-framework/vf-core#visual-framework-20).
 
-## 1️⃣ 📦 Clone the Visual Framework Child template
+## 1️⃣ 📦 Local development
+
+Want to develop patterns?
 
 *(You'll need gulp and node; [head here if you don't know what those are](https://github.com/visual-framework/vf-core/blob/develop/SETTINGUP.md))*
 
-- `git clone https://github.com/khawkins98/vf-child-playground.git` (add repo url once ready)
-- `cd vf-child-playground`
+- `git clone https://github.com/embl-communications/vf-embl.git`
+- `cd vf-embl`
 - `npm install`
-
-## 2️⃣ 🎫 Decide on project name, namespace
-
-Open `pacakage.json` and edit:
-
-```
-"vfConfig": {
-  "vfName": "Visual Framework Child pattern library",
-  "vfNamespace": "vct-"
-},
-```
-
-- `vfName` examples:
-  - My Company Name pattern library
-  - Visual Framework for My Company Name
-- `vfNamespace` prefix:
-  - Custom patterns will be prefixed by a short abbreviation or phrase. So, your
-    custom pattern for a countdown timer might be `acme-countdown-timer` or if you're
-    building for Bob's Pizza, `bp-countdown-timer`. We'd encourage you to make it:
-    - unique
-    - no longer than four letters
 
 ## 3️⃣ ⌨️ Launch the local pattern library
 
-Enter `gulp dev` and the pattern library will build and open in your browser.
+Type `gulp dev` and the pattern library will build and open in your browser.
 Be sure to keep an eye on the console for any compile errors or style linting.
 
 ## 4️⃣ 🖌 Make and edit patterns
@@ -139,7 +110,7 @@ To come.
 
 ### Keeping you pattern template up to date
 
-The `vf-child-template` follows the [`vf-core` versioning](https://github.com/visual-framework/vf-core#versioning), that means you shouldn't have to update very often; that said:
+`vf-embl` follows the [`vf-core` versioning](https://github.com/visual-framework/vf-core#versioning), that means you shouldn't have to update very often; that said:
 
 1. Most improvements will be found by updating VF patterns, to see what updates are available: `npm outdated`
 1. Watch for [new releases of `vf-child-template`](https://github.com/visual-framework/vf-child-template/releases). We'll provide guidance on how to update.

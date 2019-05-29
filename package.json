@@ -1,18 +1,25 @@
 {
-  "name": "vf-child-template",
+  "name": "vf-embl",
   "version": "0.0.1",
   "description": "A child template fore Visual Framework based compontent libraries",
   "main": "index.js",
   "vfConfig": {
-    "vfName": "Visual Framework Child Template",
-    "vfNamespace": "vct-",
-    "vfHomepage": "https://khawkins98.github.io/vf-child-playground"
+    "vfName": "Visual Framework for the EMBL Design system",
+    "vfNamespace": "embl-",
+    "vfHomepage": "https://github.com/embl-communications/vf-embl"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@frctl/fractal": "^1.2.0-beta.2",
     "@frctl/nunjucks": "^2.0.0",
+    "@visual-framework/embl-boilerplate-page": "0.0.15",
+    "@visual-framework/embl-breadcrumbs-lookup": "0.0.8",
+    "@visual-framework/embl-conditional-edit": "0.0.10",
+    "@visual-framework/embl-content-hub-loader": "0.0.10",
+    "@visual-framework/embl-content-meta-properties": "0.0.15",
+    "@visual-framework/embl-grid": "0.0.30",
+    "@visual-framework/embl-logo": "0.0.10",
     "chalk": "^2.4.2",
     "gulp": "^4.0.0",
     "highlight.js": "^9.15.6",
