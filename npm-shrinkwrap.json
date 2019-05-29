@@ -1379,6 +1379,29 @@
         "@visual-framework/vf-navigation": "^0.0.30",
         "@visual-framework/vf-sass-config": "^0.0.26",
         "node-normalize-scss": "^8.0.0"
+      },
+      "dependencies": {
+        "@visual-framework/vf-logo": {
+          "version": "0.0.28",
+          "resolved": "https://registry.npmjs.org/@visual-framework/vf-logo/-/vf-logo-0.0.28.tgz",
+          "integrity": "sha512-e8fasvia9r81RLBRl5C0Z8z/l1BfkaoDAtv37uL1zrhwvm8vI+1FNTfNxz1get/gBDggu0EwrquYPeqSZ4ze7Q==",
+          "dev": true,
+          "requires": {
+            "@visual-framework/vf-sass-config": "^0.0.25",
+            "node-normalize-scss": "^8.0.0"
+          },
+          "dependencies": {
+            "@visual-framework/vf-sass-config": {
+              "version": "0.0.25",
+              "resolved": "https://registry.npmjs.org/@visual-framework/vf-sass-config/-/vf-sass-config-0.0.25.tgz",
+              "integrity": "sha512-ZnYjdr8DCDojEKj+eM5H4y7Gy9cwkG3EBt2xjnepQPYeffZ11xEQkXYQ+mPPDcKZazJztSt2Lk9rJ/wFzKlTmw==",
+              "dev": true,
+              "requires": {
+                "node-normalize-scss": "^8.0.0"
+              }
+            }
+          }
+        }
       }
     },
     "@visual-framework/vf-grid": {
@@ -1457,24 +1480,12 @@
       }
     },
     "@visual-framework/vf-logo": {
-      "version": "0.0.28",
-      "resolved": "https://registry.npmjs.org/@visual-framework/vf-logo/-/vf-logo-0.0.28.tgz",
-      "integrity": "sha512-e8fasvia9r81RLBRl5C0Z8z/l1BfkaoDAtv37uL1zrhwvm8vI+1FNTfNxz1get/gBDggu0EwrquYPeqSZ4ze7Q==",
-      "dev": true,
+      "version": "0.0.30",
+      "resolved": "https://registry.npmjs.org/@visual-framework/vf-logo/-/vf-logo-0.0.30.tgz",
+      "integrity": "sha512-e2Gl/e1X5Dv1J3jdE6DCw80/B2uEb5gLYiCKMRLYXC2hD+SRRS6TYZEVT3exTNTNi5/2KO683oOzuHJo+1kdDA==",
       "requires": {
-        "@visual-framework/vf-sass-config": "^0.0.25",
+        "@visual-framework/vf-sass-config": "^0.0.26",
         "node-normalize-scss": "^8.0.0"
-      },
-      "dependencies": {
-        "@visual-framework/vf-sass-config": {
-          "version": "0.0.25",
-          "resolved": "https://registry.npmjs.org/@visual-framework/vf-sass-config/-/vf-sass-config-0.0.25.tgz",
-          "integrity": "sha512-ZnYjdr8DCDojEKj+eM5H4y7Gy9cwkG3EBt2xjnepQPYeffZ11xEQkXYQ+mPPDcKZazJztSt2Lk9rJ/wFzKlTmw==",
-          "dev": true,
-          "requires": {
-            "node-normalize-scss": "^8.0.0"
-          }
-        }
       }
     },
     "@visual-framework/vf-masthead": {
