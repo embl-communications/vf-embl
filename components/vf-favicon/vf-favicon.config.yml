@@ -1,0 +1,5 @@
+title: Favicon
+label: Favicon
+preview: '@preview--elements'
+context:
+  component-type: element
