@@ -1169,20 +1169,17 @@
       "integrity": "sha512-AR+0/ERhQVG+TDRidgxBnvE6Wdn+VZewFlqUueM+obx7GHDhzl7Es1cvLsbyPbo3Tbg3IzuS7Nw2FOuclMYHCg=="
     },
     "@visual-framework/embl-conditional-edit": {
-      "version": "0.0.10",
-      "resolved": "https://registry.npmjs.org/@visual-framework/embl-conditional-edit/-/embl-conditional-edit-0.0.10.tgz",
-      "integrity": "sha512-WxTxuYyDN0u1sQtp+XVpbFhJ1g4BxbDLebGyn0/nmc9PTsrJFZpsUqCnpgo0jN1y0FyU6x5UolM4CMO2K1gScQ==",
+      "version": "0.0.11",
+      "resolved": "https://registry.npmjs.org/@visual-framework/embl-conditional-edit/-/embl-conditional-edit-0.0.11.tgz",
+      "integrity": "sha512-B2DLIjYxckwLg68xYUycQcHrMa8tOaHCtgGhBDOVi3HCDnr2qtdVdzooaJPbCP5bnZNf476UyDZL4spnLTZMag==",
       "requires": {
-        "@visual-framework/vf-sass-config": "^0.0.12"
+        "@visual-framework/vf-sass-config": "^0.0.27"
       },
       "dependencies": {
         "@visual-framework/vf-sass-config": {
-          "version": "0.0.12",
-          "resolved": "https://registry.npmjs.org/@visual-framework/vf-sass-config/-/vf-sass-config-0.0.12.tgz",
-          "integrity": "sha512-dwLo5H7gF4jTit03lV9yYzYUV6KlNtAHqoIWX10mUnZzpA2S9TxHg4NZLWhDZ+f/gWbUHNmlrzPS60OBrhtINQ==",
-          "requires": {
-            "node-normalize-scss": "^8.0.0"
-          }
+          "version": "0.0.27",
+          "resolved": "https://registry.npmjs.org/@visual-framework/vf-sass-config/-/vf-sass-config-0.0.27.tgz",
+          "integrity": "sha512-TWKW3L82I6GWfyrgXawR5L/cPDKwSguOS3dHWUoGLp0dDjUW2uCQh0XyzV5kai1JjqqgMuXR2+C1jbpjPJmXZQ=="
         }
       }
     },
@@ -1446,27 +1443,15 @@
       }
     },
     "@visual-framework/vf-global-header": {
-      "version": "0.0.30",
-      "resolved": "https://registry.npmjs.org/@visual-framework/vf-global-header/-/vf-global-header-0.0.30.tgz",
-      "integrity": "sha512-ba1is1v33l4KTtjPTABO8+cTAFLg+G5+w/NUdRQQP78qWs5Yz9K7qg4htKBgVqDETS32FZE80ESI+OsETJsPDw==",
+      "version": "0.0.31",
+      "resolved": "https://registry.npmjs.org/@visual-framework/vf-global-header/-/vf-global-header-0.0.31.tgz",
+      "integrity": "sha512-xDfnWyX6p+sKsPmKRZThyLyu9WnHtxUvKwoLZHszjDtMrhCv5WphgZvfR92yldM3U29k7Qw1JorbEDu5NH5QYw==",
       "dev": true,
       "requires": {
         "@visual-framework/vf-logo": "^0.0.28",
-        "@visual-framework/vf-navigation": "^0.0.30",
-        "@visual-framework/vf-sass-config": "^0.0.26",
-        "node-normalize-scss": "^8.0.0"
+        "@visual-framework/vf-navigation": "^0.0.31"
       },
       "dependencies": {
-        "@visual-framework/vf-list": {
-          "version": "0.0.29",
-          "resolved": "https://registry.npmjs.org/@visual-framework/vf-list/-/vf-list-0.0.29.tgz",
-          "integrity": "sha512-vHxGvMHEI0scbYBd6YbDW9nq7v0Cgf5RSCP24dGvdF8gf8dnOLrKvuNrQ65JP8fQxXAhTGcu87D/jbkWtBbOBQ==",
-          "dev": true,
-          "requires": {
-            "@visual-framework/vf-sass-config": "^0.0.26",
-            "node-normalize-scss": "^8.0.0"
-          }
-        },
         "@visual-framework/vf-logo": {
           "version": "0.0.28",
           "resolved": "https://registry.npmjs.org/@visual-framework/vf-logo/-/vf-logo-0.0.28.tgz",
@@ -1475,27 +1460,14 @@
           "requires": {
             "@visual-framework/vf-sass-config": "^0.0.25",
             "node-normalize-scss": "^8.0.0"
-          },
-          "dependencies": {
-            "@visual-framework/vf-sass-config": {
-              "version": "0.0.25",
-              "resolved": "https://registry.npmjs.org/@visual-framework/vf-sass-config/-/vf-sass-config-0.0.25.tgz",
-              "integrity": "sha512-ZnYjdr8DCDojEKj+eM5H4y7Gy9cwkG3EBt2xjnepQPYeffZ11xEQkXYQ+mPPDcKZazJztSt2Lk9rJ/wFzKlTmw==",
-              "dev": true,
-              "requires": {
-                "node-normalize-scss": "^8.0.0"
-              }
-            }
           }
         },
-        "@visual-framework/vf-navigation": {
-          "version": "0.0.30",
-          "resolved": "https://registry.npmjs.org/@visual-framework/vf-navigation/-/vf-navigation-0.0.30.tgz",
-          "integrity": "sha512-niNO80alPLP2K9WXwFzIvOHl9JiI94lfK771KB+1Fbb5Zr/+cdUCm/360nPpU7AlvdXcoKO2Z7OOMKtQDFrang==",
+        "@visual-framework/vf-sass-config": {
+          "version": "0.0.25",
+          "resolved": "https://registry.npmjs.org/@visual-framework/vf-sass-config/-/vf-sass-config-0.0.25.tgz",
+          "integrity": "sha512-ZnYjdr8DCDojEKj+eM5H4y7Gy9cwkG3EBt2xjnepQPYeffZ11xEQkXYQ+mPPDcKZazJztSt2Lk9rJ/wFzKlTmw==",
           "dev": true,
           "requires": {
-            "@visual-framework/vf-list": "^0.0.29",
-            "@visual-framework/vf-sass-config": "^0.0.26",
             "node-normalize-scss": "^8.0.0"
           }
         }
