@@ -468,7 +468,7 @@ gulp.task('tokens', gulp.parallel(
 
 // Build as a static site for CI
 gulp.task('build', gulp.series(
-  'tokens', 'scss-lint', 'CSSGen', 'css', 'component-assets', 'scripts', 'frctlBuild'
+  'tokens', 'CSSGen', 'css', 'component-assets', 'scripts', 'frctlBuild'
 ));
 
 gulp.task('prepush-test', gulp.parallel(
