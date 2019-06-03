@@ -1,0 +1,32 @@
+{
+  "version": "0.0.32",
+  "name": "@visual-framework/vf-header",
+  "description": "vf-header component",
+  "homepage": "https://visual-framework.github.io/vf-core/",
+  "author": "VF",
+  "license": "Apache 2.0",
+  "style": "vf-header.css",
+  "sass": "index.scss",
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repo": "https://github.com/visual-framework/vf-core/tree/master/components/containers/vf-header",
+  "bugs": {
+    "url": "https://github.com/visual-framework/vf-core/issues/new"
+  },
+  "dependencies": {
+    "@visual-framework/vf-global-header": "^0.0.31",
+    "@visual-framework/vf-masthead": "^0.0.32",
+    "@visual-framework/vf-navigation": "^0.0.31"
+  },
+  "keywords": [
+    "fractal",
+    "component"
+  ],
+  "gitHead": "7bb3e8605bb5e604a55e7480e8e0d7620cee1b7f"
+
+,"_resolved": "https://registry.npmjs.org/@visual-framework/vf-header/-/vf-header-0.0.32.tgz"
+,"_integrity": "sha512-AzEHLCx5Wgoo4fjinoWFWgwKm/WuL8IhAO9xqYljjGJGHP8w5chaSVYNXToTK0pYenaDoX4liwwCP9ezSpfpzQ=="
+,"_from": "@visual-framework/vf-header@0.0.32"
+}

@@ -1,0 +1,39 @@
+{
+  "version": "0.0.30",
+  "name": "@visual-framework/vf-form__core",
+  "description": "vf-form__core component",
+  "homepage": "https://visual-framework.github.io/vf-core/",
+  "author": "VF",
+  "license": "Apache 2.0",
+  "style": "vf-form.css",
+  "sass": "index.scss",
+  "files": [
+    "assets",
+    "index.scss",
+    "vf-form__core.scss",
+    "vf-form__core.css",
+    "vf-form__core.njk",
+    "vf-form__core.config.yml"
+  ],
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repo": "https://github.com/visual-framework/vf-core/tree/master/components/elements/vf-form__core",
+  "bugs": {
+    "url": "https://github.com/visual-framework/vf-core/issues/new"
+  },
+  "dependencies": {
+    "@visual-framework/vf-sass-config": "^0.0.26",
+    "node-normalize-scss": "^8.0.0"
+  },
+  "keywords": [
+    "fractal",
+    "component"
+  ],
+  "gitHead": "06c9235464a78ae84f0efc753595b069c8dddeee"
+
+,"_resolved": "https://registry.npmjs.org/@visual-framework/vf-form__core/-/vf-form__core-0.0.30.tgz"
+,"_integrity": "sha512-vhx8hIi4z07GEMAlUaGt+YXKIrilyDy7p74EV8fNjYMTshZ2so315g19TSfrBGRskc07yJe96lN4l43nN10J4A=="
+,"_from": "@visual-framework/vf-form__core@0.0.30"
+}

@@ -1,0 +1,27 @@
+{
+  "version": "0.0.30",
+  "name": "@visual-framework/vf-utility-classes",
+  "description": "A set of utility classes to help quickly prototype, and 'tweak' design.",
+  "homepage": "https://visual-framework.github.io/vf-core/",
+  "author": "VF",
+  "license": "Apache 2.0",
+  "style": "vf-utility-classes.css",
+  "sass": "index.scss",
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repo": "https://github.com/visual-framework/vf-core/tree/master/tree/master/components/elements/vf-utility-classes",
+  "bugs": {
+    "url": "https://github.com/visual-framework/vf-core/issues"
+  },
+  "keywords": [
+    "fractal",
+    "component"
+  ],
+  "gitHead": "7bb3e8605bb5e604a55e7480e8e0d7620cee1b7f"
+
+,"_resolved": "https://registry.npmjs.org/@visual-framework/vf-utility-classes/-/vf-utility-classes-0.0.30.tgz"
+,"_integrity": "sha512-XJeFgbGPLcEzBKYzi9S5abF2QuwG3/juDYfFnh7z0jxIP7t/soOxu9qUc/SztfXfCB+F99Q6Ucw3i87bJvuE4w=="
+,"_from": "@visual-framework/vf-utility-classes@0.0.30"
+}

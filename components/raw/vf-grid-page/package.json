@@ -1,0 +1,27 @@
+{
+  "version": "0.0.31",
+  "name": "@visual-framework/vf-grid-page",
+  "description": "vf-grid-page component",
+  "homepage": "https://visual-framework.github.io/vf-core/",
+  "author": "VF",
+  "license": "Apache 2.0",
+  "style": "vf-grid-page.css",
+  "sass": "index.scss",
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repo": "https://github.com/visual-framework/vf-core/tree/master/components/grids/vf-grid-page",
+  "bugs": {
+    "url": "https://github.com/visual-framework/vf-core/issues/new"
+  },
+  "keywords": [
+    "fractal",
+    "component"
+  ],
+  "gitHead": "7bb3e8605bb5e604a55e7480e8e0d7620cee1b7f"
+
+,"_resolved": "https://registry.npmjs.org/@visual-framework/vf-grid-page/-/vf-grid-page-0.0.31.tgz"
+,"_integrity": "sha512-LsRrOm5SfkRD01zGvDDGBGGalo4sFtO4q2k6ZbBU/ZtZFBVymZtNRynHloOlsAhVUBqXDdM+cBD0039taf8heA=="
+,"_from": "@visual-framework/vf-grid-page@0.0.31"
+}
